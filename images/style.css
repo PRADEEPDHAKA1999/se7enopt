@@ -1,0 +1,328 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+#header{
+    width: 100%;
+    background-color: rgb(1, 23, 49);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.main{
+    max-width: 1320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+figure{
+    flex-basis: 21%;
+}
+figure img{
+    width: 100%;
+    padding: 20px 10px;
+}
+nav{
+    flex-basis: 45%;
+}
+nav ul{
+    display: flex;
+    gap: 5%;
+}
+nav ul li{
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+#banner{
+    width: 100%;
+    background-color: rgb(7, 46, 89);
+}
+.bannermain{
+    max-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    padding: 110px 0px 10px 0px;
+}
+.bannerright{
+    flex-basis: 45%;
+}
+.bannerright h3{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 45px;
+    margin-left: 20px;
+}
+.bannerright ul{
+    margin-left: 25px;
+}
+.bannerright ul li{
+    color: white;
+    line-height: 40px;
+}
+.bannerright ul li i{
+    color: yellow;
+}
+.bannerright img{
+    width: 100%;
+    border: 1px solid yellow;
+    padding: 20px;
+}
+.bannerright button{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(7, 46, 89);
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+#maincontent{
+    width: 100%;
+    background-color: white;
+}
+.mainfix{
+    max-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+.fixright{
+    flex-basis: 65%;
+}
+.fixright h1{
+    font-size: 43px;
+    font-weight: 500;
+}
+.fixright p{
+    margin: 30px 0px;
+    color: rgb(33, 37, 41);
+}
+.fixleft{
+    flex-basis: 30%;
+    background-color: #072E59;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.fixleft h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin: 30px 0px;
+}
+.fixleft form input{
+    width: 90%;
+    margin-bottom: 60px;
+    margin-left: 15px;
+    padding: 10px;
+}
+.fixleft form textarea{
+    width: 90%;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+.fixleft button{
+    padding: 3px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(7, 46, 89);
+    border: 2px solid yellow;
+    margin-bottom: 30px;
+}
+.fixrow{
+    flex-basis: 22%;
+    padding: 30px 0px;
+    background-color: rgb(7, 46, 89);
+    text-align: center;
+    margin-top: 20px;
+    transform: scale(1,1);
+}
+.fixrow p{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.fixrow:hover{
+    transform: scale(1.05,1.05);
+}
+#Reviews{
+    width: 100%;
+    background-color: #011731;
+}
+.mainfix2{
+    max-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+    align-items: center;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+.mainfix2 h2{
+    width: 100%;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+.Reviewscontent{
+    flex-basis: 40%;
+    margin: 30px 0px;
+    border: 1px solid yellow;
+}
+.Reviewscontent p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 50px;
+    padding-bottom: 30px;
+}
+.rowbottum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 50px
+}
+.rowclinet h4 , .rowclinet span{
+    color: white;
+    padding: 3px 5px;
+}
+#section5{
+    width: 100%;
+    background-color: white;
+}
+.mainfix h2{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.Academicnumber{
+    flex-basis: 20%;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 50px 0px;
+    border: 2px solid rgb(178, 178, 14);
+}
+.Academicnumber p{
+    font-weight: 500;
+    font-size: 45px;
+    color: #002349;
+
+}
+.Academicnumber h4{
+    color: #333;
+    font-weight: 700;
+    font-size: 20px;
+}
+#section6{
+    width: 100%;
+    background-color: #011731;
+}
+.contentleft{
+    flex-basis: 78%;
+}
+.contentleft h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+}
+.contentright{
+    flex-basis: 15%;
+}
+.contentright button{
+    padding: 20px;
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+    background-color: #011731;
+    border: 2px solid rgb(140, 140, 11);
+}
+#section7{
+    width: 100%;
+    background-color: white;
+}
+.Agencycontent{
+    flex-basis: 45%;
+}
+.Agencycontent h2{
+    font-size: 38px;
+    font-weight: 600;
+    text-align: left;
+}
+.Agencycontent p{
+    margin: 20px;
+    color: rgb(33, 37, 41);
+    text-align: justify;
+}
+.Agencycontentright{
+    flex-basis: 40%;
+}
+.fixcontent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2%;
+}
+.subcontentt{
+    flex-basis: 45%;
+    background-color: rgb(7, 46, 89);
+    padding: 20px 0px;
+    margin: 20px 0px;
+    text-align: center;
+    box-shadow: 10px 10px 0px 2px rgb(201, 199, 199);
+}
+.subcontentt h4{
+    color: white;
+    padding-top: 17px;
+    font-weight: 500;
+    font-size: 19px;
+}
+.subcontentt p{
+    line-height: 28px;
+    color: white;
+    text-align: justify;
+    margin: 10px 5px;
+}
+#section8{
+    width: 100%;
+    background-color: #011731;
+}
+.mainfix h3{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.visa{
+    flex-basis: 21%;
+    text-align: center;
+}
+.visa img{
+    width: 100%;
+}
+.visa h4{
+    font-size:  ;
+}

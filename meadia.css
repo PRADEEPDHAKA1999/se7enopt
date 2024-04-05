@@ -1,0 +1,31 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    nav{
+        display: none;
+    }
+    figure{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    figure img{
+        width: 40%;
+    }
+    .bannermain{
+        flex-direction: column;
+    }
+    .mainfix{
+        flex-direction: column;
+    }
+    .fixrow{
+        width: 80%;
+    }
+    .mainfix2{
+        flex-direction: column;
+    }
+    .Reviewscontent p{
+        padding: 20px;
+    }
+    .fixcontent{
+        flex-direction: column;
+    }
+    
+}

@@ -1,0 +1,10 @@
+// const btn=document.getElementsByClassName("responsive")[0];
+function responsivemenu(){
+    const menu=document.getElementsByClassName('menu-primary-container')[0];
+    const icon=document.getElementsByClassName('icons')[0];
+   if(icon.classList.contains("fa-bars")){
+    icon.classList.toggle("fa-xmark")
+   }
+    menu.classList.toggle('show');
+   
+}
